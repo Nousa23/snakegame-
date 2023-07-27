@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: rgb(19, 13, 13);
+    color: rgb(238, 234, 234);
+    text-align: left;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+}
+header, footer, .page-body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+header, footer {
+    background-color: rgb(19, 16, 16);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-body {
+    background-color: rgb(12, 11, 11);
+    color: rgb(10, 9, 9);
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    background-image: url("sn.png");
+    background-size: cover;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-family:Caprasimo', cursive;
+    font-size: 40px;
+    margin-right: 100px;
+}
+.text {
+    padding-top: 50px;
+    padding-left: 100px;
+    color: white;
+    display: inline-flex;
+}
+#gameover {
+    color: rgb(202, 40, 12);
+    font-size: 90px;
+    position: absolute;
+    top: 450px;
+    left: 210px;
+}
+#game {
+    background:url(back.jpg);
+    border: 1px solid white;
+}
